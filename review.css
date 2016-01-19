@@ -1,0 +1,194 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset */
+
+/* body */
+body {
+	font-size: large;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/*end body */
+
+/* wrapper */
+#wrapper {
+	background-image: url(images/metal_template2.jpg);
+	background-repeat: repeat-y;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/* end wrapper */
+
+/* header */
+#header {
+	
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+h1 {
+	margin-left: -5000px;
+}
+/* end header */
+
+/* content */
+#content {
+}
+/* links */
+#navbar {
+	background-color: #999;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+#navbar ul {
+	margin-bottom: 25px;
+}
+#navbar li {
+	display: inline;
+	margin: 25px 5px 15px 5px;
+	padding-right: 30px;
+}
+/* main */
+#portfolio {
+	margin: 15px 25px 15px 106px;
+	padding-bottom: 15px;
+}
+#greeting {
+	background-color: #CCC;
+	margin: 15px 10px;
+	padding: 35px;
+}
+#greeting p {
+	margin-top: 15px;
+}
+#contact {
+	background-color: #FFF;
+	margin: 15px 10px;
+	padding: 25px 20px 55px 20px;
+}
+#contact h3 {
+	font-size: 1.3em;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+#about {
+	background-color: #CCC;
+	margin: 15px 10px;
+	padding: 35px;
+}
+#about h2 {
+	font-size: 1.5em;
+	color: #F00;
+	margin-bottom: 20px;
+}
+#about p {
+	margin-top: 15px;
+	line-height: 24px;
+}
+# about ul {
+	margin: 25px 15px 25px 40px;
+}
+#about li {
+	list-style-type: disc;
+	padding-top; 12px;
+	margin-bottom: 12px;
+	margin-left: 50px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+#resume {
+	background-color: #CCC;
+}
+#resume p {
+	margin: 10px 0;
+}
+#resume a{
+	font-size: 1.5em;
+	padding: 20px 25px 25px 25px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	color: #003;
+}
+#resume a:visited {
+	font-size: 1.5em;
+	color: #003;
+}
+#resume a:hover {
+	font-size: 1.5em;
+	color: #F00;
+}
+#work {
+	background-color: #CCC;
+	margin: 15px 10px;
+	padding: 35px;
+}
+#work img {
+	margin: 30px;
+	border: 2px solid #FFF;
+}
+#work h4 {
+	color: #003;
+	margin: 18px 10px 30px 30px;
+}
+
+p.belt {
+	margin-top: 175px;
+}
+/* end content */
+
+/* footer */
+
+#footer {
+	margin: 35px 0;
+}
+address {
+	text-align: center;
+	color: #FFF;
+	font-family: "Comic Sans MS", cursive;
+	font-size: .9em;
+	margin-top: -65px;
+}
+
